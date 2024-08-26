@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Work Sans', sans-serif; */
+
+body, html{
+    overflow-x: hidden;
+}
+
+header{
+    min-height: 100vh;
+    background-image: url(image/header-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar-nav .nav-item{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+
+.navbar-nav .nav-item:hover{
+    border-bottom: 1px solid rgb(138, 137, 137);
+}
+
+.hero{
+    padding-top: 30px;
+}
+
+.hero-content{
+    color: rgb(216, 211, 211);
+}
+
+.hero-content h5{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.hero-content h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.hero-content h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 42px;
+}
+
+.fa-circle-down{
+    padding: 10px;
+    font-size: 35px;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.fa-circle-down:hover{
+    color: #f1f1f1;
+    transform: scale(1.05);
+}
+
+.fa-circle-up{
+    padding: 10px;
+    font-size: 35px;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.fa-circle-up:hover{
+    color: #f1f1f1;
+    transform: scale(1.05);
+}
+
+.about-content h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.about-content p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.number{
+    min-height: 300px;
+    background-image: url(image/testi-baner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text-num{
+    font-size: 15px;
+}
+
+.project-content h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.project-content p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.home-caro {
+    min-height: 500px;
+    background-image: url(image/testi-baner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.home-caro p {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.latest-blog{
+    background-color: rgb(236, 232, 228);
+}
+
+.blog-content  h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.blog-content  p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.contact{
+    background-color: rgb(236, 232, 228);
+}
+
+.contact-left h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+.contact-left span{
+    font-weight: bold;
+}
+
+footer{
+    background-color: black;
+}
+footer h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.fa-brands{
+    padding-right: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.f-about p{
+    padding-bottom: 10px;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.f-inst{
+    height: 100px; 
+    width: 100px;
+    background-color: #f1f1f1;
+    
+}
+.f-twist p{
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.carousel-item{
+    transition: all .5s ease-in-out;
+}
+.carousel-indicators{
+    left: 0%;
+    top: auto;
+    bottom: -80px;
+}
+
+.carousel-indicators .ind-but {
+    background: #6b6868;
+    border-radius: 50%;
+    height: 1px;
+    width: 10px;
+    margin-right: 10px;
+}
+
+.carousel-indicators .active{  
+    background: rgb(3, 3, 3);
+}
+
+/* ---------Work Start-------- */
+
+.work-galary{
+    padding: 20px 0px;
+    background-color: rgb(235, 241, 239);
+}
+
+.more-work a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ---------Work End---------- */
+
+
+/* ------Footer Start---- */
+
+.footer-work{
+    background-color: rgb(235, 241, 239);
+}
+
+.footer-work-social .fa-brands{
+    color: #686666;
+    padding-top: 20px;
+}
+
+.copy{
+    color: #686666;
+    padding: 8px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* ------Footer End---- */
+
+/* --------About Start---------- */
+
+.about-header{
+    min-height: 100vh;
+    background-image: url(image/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* --------About end---------- */
+
+.blog-section{
+    min-height: 100vh;
+    background-color: rgb(235, 241, 239);
+}
